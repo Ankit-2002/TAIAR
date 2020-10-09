@@ -1,0 +1,87 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">);
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+background:#00FFFF;
+font-family: 'Dancing Script', cursive;
+}
+.wrapper {
+margin-top:10%;
+}
+
+.wrapper h1{
+font-family: 'Sansita Swashed', cursive;
+font-size:52px;
+margin-bottom:60px;
+text-align:center;
+}
+
+.team{
+display:flex;
+text-align:center;
+width:auto;
+justify-content: center;
+}
+
+.team .team_member1{
+background-image:url(../../Downloads/dalhousie45.png);
+margin:50px;
+height:400px;
+width:300px;
+padding:20px;
+line-height:20px;
+transform-style: preserve-3d;
+transform: perspective(2000px);
+transition: 1s;
+box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+color:#FF0033;
+position:relative;
+}
+.team .team_member1:hover
+{
+z-index: 1000;
+	transform: perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+	}
+.team .team_member2{
+background-image:url(../../Downloads/dal10.png);
+margin:50px;
+height:400px;
+width:300px;
+font-size:20px;
+margin-top:50px;
+transform-style: preserve-3d;
+	transform: perspective(2000px);
+	transition: 1s;
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+}
+.team .team_member2:hover
+{
+z-index: 1000;
+	transform: perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+	}
+.team .team_member3{
+background-image:url(../../Downloads/dal6.png);
+margin:50px;
+height:400px;
+width:300px;
+font-size:20px;
+margin:50px;
+transform-style: preserve-3d;
+	transform: perspective(2000px);
+	transition: 1s;
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+
+}
+.team .team_member3:hover
+{
+z-index: 1000;
+	transform: perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+	}
